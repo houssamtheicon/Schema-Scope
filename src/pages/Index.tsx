@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Moon, Sun, Copy, Download, TreePine, Table, Code } from 'lucide-react';
+import { Moon, Sun, Copy, Download, TreePine, Table, Code, Heart } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -203,6 +203,15 @@ const Index = () => {
             </CardContent>
           </Card>
         </div>
+        
+        {/* Footer */}
+        <footer className="mt-16 pb-8 text-center">
+          <div className="flex items-center justify-center space-x-2 text-muted-foreground">
+            <span>Made with</span>
+            <Heart className="h-4 w-4 text-red-500 fill-current" />
+            <span>by Houssamtheicon</span>
+          </div>
+        </footer>
       </div>
     </div>
   );
