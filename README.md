@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# 🚀 What is SchemaScope?
+**SchemaScope** is a sleek, web-based JSON schema visualizer designed for developers. Just paste your JSON data and instantly explore it in a beautiful, interactive tree or table view.
 
-## Project info
+Built with [React]([url](https://react.dev/)) and styled using [TailwindCSS]([url](https://tailwindcss.com/)), SchemaScope supports both light and dark modes — perfect for any coding environment.
 
-**URL**: https://lovable.dev/projects/1659ccee-4882-449d-8b48-81c7fdb41c85
+# ✨ Features
+**Intuitive Visualizations** — Switch between a detailed tree view and a clean table view
 
-## How can I edit this code?
+**Copy & Download** — Easily copy your schema or download it as a file with one click
 
-There are several ways of editing your application.
+**Light & Dark Mode** — Toggle between themes to match your preference
 
-**Use Lovable**
+**Responsive Design** — Works perfectly on desktops, tablets, and mobile devices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1659ccee-4882-449d-8b48-81c7fdb41c85) and start prompting.
+**Open Source** — Fully customizable and easy to extend
 
-Changes made via Lovable will be committed automatically to this repo.
+# 🎨 Tech Stack
+**React**
 
-**Use your preferred IDE**
+**TailwindCSS**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**JavaScript / JSX**
+# 💡 How to Use
+**1.** Paste your JSON data into the input area
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**2.** Choose between Tree View or Table View
 
-Follow these steps:
+**3.** Explore your schema visually
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**4.** Use the Copy button to copy your schema or Download to save it locally
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**5.** Toggle between Light and Dark mode for comfortable viewing
 
-# Step 3: Install the necessary dependencies.
-npm i
+📦 Installation
+Clone the repo:
+<pre> 
+  git clone https://github.com/your-username/SchemaScope.git
+  
+  cd SchemaScope npm install 
+  
+  npm start 
+</pre>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+# 🤝 Contribution
+**Contributions are welcome!** Feel free to open issues or submit pull requests to improve SchemaScope.
 
-**Edit a file directly in GitHub**
+# 📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1659ccee-4882-449d-8b48-81c7fdb41c85) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+👋 Contact
+Created with ❤️ by [houssamtheicon]([url](https://github.com/houssamtheicon))
