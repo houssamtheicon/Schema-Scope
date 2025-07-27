@@ -130,7 +130,7 @@ const JsonTable: React.FC<JsonTableProps> = ({ data }) => {
             <TableHead>Type</TableHead>
             <TableHead>Value</TableHead>
             <TableHead>Description</TableHead>
-            <TableHead width="50">Actions</TableHead>
+            <TableHead className="w-12">Actions</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>

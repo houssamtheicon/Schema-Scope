@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Moon, Sun, Copy, Download, Tree, Table, Code } from 'lucide-react';
+import { Moon, Sun, Copy, Download, TreePine, Table, Code } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -149,7 +149,7 @@ const Index = () => {
             <CardHeader>
               <div className="flex items-center justify-between">
                 <CardTitle className="flex items-center space-x-2">
-                  <Tree className="h-5 w-5" />
+                  <TreePine className="h-5 w-5" />
                   <span>Schema Visualization</span>
                 </CardTitle>
                 {parsedJson && (
@@ -179,7 +179,7 @@ const Index = () => {
                 <Tabs value={activeView} onValueChange={setActiveView}>
                   <TabsList className="grid w-full grid-cols-2">
                     <TabsTrigger value="tree" className="flex items-center space-x-2">
-                      <Tree className="h-4 w-4" />
+                      <TreePine className="h-4 w-4" />
                       <span>Tree View</span>
                     </TabsTrigger>
                     <TabsTrigger value="table" className="flex items-center space-x-2">
